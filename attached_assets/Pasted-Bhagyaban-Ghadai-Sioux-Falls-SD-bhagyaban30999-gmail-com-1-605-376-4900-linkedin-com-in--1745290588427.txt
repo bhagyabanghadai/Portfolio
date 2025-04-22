@@ -1,0 +1,96 @@
+Bhagyaban Ghadai
+ Sioux Falls, SD | bhagyaban30999@gmail.com | +1 (605) 376-4900
+ linkedin.com/in/bhagyabanghadai | github.com/bhagyabanghadai
+ Professional Summary
+ Accomplished Java Full Stack Developer with 5+ years of expertise designing and implementing scalable web applications
+ using Java, Spring Boot, React.js, and AWS. Spearheaded the development of RESTful APIs, microservices, and responsive
+ user interfaces while ensuring secure, maintainable, and high-performance solutions. Led cross-functional teams to deliver
+ mission-critical features, improving system performance by 40
+ Technical Skills
+ Backend Development:
+ Frontend Development:
+ Cloud/DevOps:
+ Database Management:
+ Testing & Tools:
+ Work Experience
+ Java, Spring Boot, Microservices, RESTful APIs, Hibernate, SQL
+ React.js, TypeScript, HTML5, CSS3,
+ AWS, Docker, Kubernetes, Jenkins, CI/CD Pipelines
+ MySQL, SQL Optimization
+ JUnit, Git, Maven, Gradle
+ Senior Analyst to Associate Consultant
+ Hyderabad, India
+ Ernst & Young LLP
+ Jan 2022- Jun 2023
+ • Architected and developed Java Spring Boot microservices, reducing API response times by 35% and improving
+ system scalability.
+ • Engineered and deployed RESTful APIs to streamline communication between backend services and frontend
+ clients, enabling seamless integration.
+ • Optimized SQL queries and database performance, achieving a 25% reduction in query latency and enhancing
+ overall application efficiency.
+ • Implemented JWT-based authentication and Spring Security to fortify application security, ensuring compliance
+ with OWASP standards.
+ • Designed dynamic React.js dashboards for real-time data visualization, improving user engagement and
+ decision-making capabilities.
+ • Collaborated with UI/UX designers to implement responsive layouts using HTML5, CSS3, and Bootstrap, ensuring
+ a consistent user experience across devices.
+ • Automated build and deployment processes using Jenkins, Maven, and Gradle, reducing deployment time by 30%.
+ • Skills: Java, Spring Boot, React.js, RESTful APIs, SQL, Jenkins, Communication, Leadership, Problem-Solving.
+ Contract Java Developer
+ Xpheno Technologies
+ Pune, India
+ Oct 2021- Jan 2022
+ • Developed RESTful APIs using Spring Boot, improving internal tool communication and reducing response times
+ by 30%.
+ • Integrated JWT-based authentication to enhance microservice security, ensuring compliance with organizational
+ standards.
+ • Optimized database queries using PostgreSQL, boosting application performance and reducing server load by 20%.
+ • Built reusable components in React.js, improving frontend modularity and maintainability while reducing code
+ duplication by 15%.
+ • Conducted unit testing using JUnit and automated scripts with Maven and Gradle, ensuring 95% test coverage.
+ • Mentored 2 junior developers, improving their coding efficiency and fostering a collaborative team environment.
+ • Skills: Java, Spring Boot, React.js, PostgreSQL, Jenkins, Unit Testing, Collaboration, Mentorship.
+ Software Engineer
+ Datapro Information Technology
+ Pune, India
+ Jan 2018- Sep 2021
+ • Developed and maintained Java Spring Boot applications following Microservices architecture, ensuring scalability
+ and reliability for 100k+ daily users.
+ • Orchestrated Jenkins CI/CD pipelines for automated deployments, improving deployment efficiency by 40% and
+ reducing manual errors.
+ • Implemented Spring Security and OAuth 2.0 for secure API access, mitigating potential security vulnerabilities.
+ • Integrated React.js frontend applications with backend services, enhancing user interface responsiveness and
+ improving user satisfaction by 15%.
+• Collaborated with cross-functional teams to deliver end-to-end features, from backend logic to frontend
+ implementation, ensuring alignment with business goals.
+ • Owned the migration of legacy systems to microservices architecture, reducing system downtime by 25% and
+ improving scalability.
+ • Skills: Java, Spring Boot, React.js, Microservices, Jenkins, SQL, Teamwork, Leadership, Problem-Solving.
+ Education
+ University of South Dakota
+ Master’s in Computer Science
+ Jawaharlal Nehru Technological University
+ Bachelor of Technology in Computer Science
+ Projects
+ Aug 2023- May 2025
+ Jul 2017- Jul 2021
+ Neat Code AI– LLM-Based Code Review Assistant
+ Jan 2024- Present
+ • Developed a Java-based AI-powered code review assistant capable of detecting security vulnerabilities in 95% of
+ scanned files.
+ • Integrated OWASP Dependency Check for automated security scanning, ensuring compliance with industry
+ standards.
+ • Reduced manual code review time by 50%, enabling faster development cycles and improved code quality.
+ • Skills: Java, AI, Security, OWASP, Automation, Problem-Solving.
+ Reprise App– AI-Powered Strength Training Platform
+ Oct 2024- Dec 2024
+ • Developed a fitness platform backend using Java and Spring Boot, significantly reducing workout planning time
+ through automation.
+ • Implemented progressive overload tracking by designing a robust database schema in MySQL and developing
+ algorithms in Java to enhance user strength gains.
+ • Collaborated with a team of 5 to design and implement scalable backend services, ensuring efficient data processing
+ and system performance.
+ • Skills: Java, Spring Boot, MySQL, Backend Development, Performance Optimization, Teamwork.
+ Certifications
+ Oracle Certified Professional: Java SE 17 Developer
+ AWS Certified Solutions Architect– Associate
