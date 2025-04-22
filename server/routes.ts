@@ -3,6 +3,7 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import path from "path";
 import fs from "fs";
+import { generateChatResponse, chatRequestSchema } from "./ai";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // API routes
@@ -37,6 +38,31 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
     } catch (error) {
       res.status(500).json({ message: "Failed to download resume. Please try again later." });
+    }
+  });
+
+  // AI Chat endpoint
+  app.post("/api/chat", async (req, res) => {
+    try {
+      // Validate request body
+      const result = chatRequestSchema.safeParse(req.body);
+      
+      if (!result.success) {
+        return res.status(400).json({ 
+          message: "Invalid request",
+          errors: result.error.format() 
+        });
+      }
+      
+      // Generate AI response
+      const response = await generateChatResponse(result.data);
+      
+      res.status(200).json({ response });
+    } catch (error) {
+      console.error("Error in chat endpoint:", error);
+      res.status(500).json({ 
+        message: "Failed to generate AI response. Please try again later." 
+      });
     }
   });
 

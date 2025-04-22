@@ -10,6 +10,7 @@ import AboutPage from "@/pages/AboutPage";
 import ProjectsPage from "@/pages/ProjectsPage";
 import ExperiencePage from "@/pages/ExperiencePage";
 import ContactPage from "@/pages/ContactPage";
+import AIChatPage from "@/pages/AIChatPage";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 
