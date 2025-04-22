@@ -59,9 +59,9 @@ const Navbar: React.FC<NavbarProps> = ({ currentPath }) => {
               className={`group border-b md:border-b-0 md:border-r border-comment/30 px-6 py-4 transition-colors duration-200 cursor-pointer hover:text-syntax-blue hover:bg-line-highlight flex items-center ${isActive(item.path)}`}
             >
               <Link href={item.path} onClick={() => setMobileMenuOpen(false)}>
-                <a className="flex items-center w-full">
+                <div className="flex items-center w-full">
                   {item.icon} {item.label}
-                </a>
+                </div>
               </Link>
             </li>
           ))}

@@ -52,6 +52,13 @@ const Sidebar: React.FC<SidebarProps> = ({ currentPath, onNavigate }) => {
       ],
       isOpen: true
     },
+    {
+      title: 'interactive',
+      items: [
+        { name: 'ai_assistant.js', path: '/chat', color: 'text-syntax-blue' },
+      ],
+      isOpen: true
+    },
   ]);
 
   const toggleSection = (index: number) => {

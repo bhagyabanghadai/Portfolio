@@ -43,6 +43,8 @@ const Terminal: React.FC<TerminalProps> = ({ onCommandExecute }) => {
         return "Loading experience section...";
       case "contact":
         return "Loading contact section...";
+      case "chat":
+        return "Opening AI chat assistant...";
       case "skills":
         return "Loading skills (in about section)...";
       case "home":
@@ -59,6 +61,7 @@ const Terminal: React.FC<TerminalProps> = ({ onCommandExecute }) => {
               <li><span className="text-syntax-blue">experience</span> - See my work history and accomplishments</li>
               <li><span className="text-syntax-blue">projects</span> - Browse my featured projects</li>
               <li><span className="text-syntax-blue">contact</span> - Get in touch with me</li>
+              <li><span className="text-syntax-blue">chat</span> - Open AI chat assistant</li>
               <li><span className="text-syntax-blue">clear</span> - Clear the terminal</li>
             </ul>
           </div>
@@ -126,6 +129,7 @@ const Terminal: React.FC<TerminalProps> = ({ onCommandExecute }) => {
               <li><span className="text-syntax-blue">experience</span> - See my work history and accomplishments</li>
               <li><span className="text-syntax-blue">projects</span> - Browse my featured projects</li>
               <li><span className="text-syntax-blue">contact</span> - Get in touch with me</li>
+              <li><span className="text-syntax-blue">chat</span> - Open AI chat assistant</li>
               <li><span className="text-syntax-blue">clear</span> - Clear the terminal</li>
             </ul>
           </div>
