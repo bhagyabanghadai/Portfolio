@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "wouter";
-import { FaHome, FaUser, FaCode, FaBriefcase, FaEnvelope, FaGithub, FaLinkedin, FaDownload, FaBars, FaTimes } from "react-icons/fa";
+import { FaHome, FaUser, FaCode, FaBriefcase, FaEnvelope, FaGithub, FaLinkedin, FaDownload, FaBars, FaTimes, FaRobot } from "react-icons/fa";
 
 interface NavbarProps {
   currentPath: string;
@@ -19,6 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPath }) => {
     { path: "/projects", icon: <FaCode className="mr-2" />, label: "_projects.js" },
     { path: "/experience", icon: <FaBriefcase className="mr-2" />, label: "_experience.js" },
     { path: "/contact", icon: <FaEnvelope className="mr-2" />, label: "_contact.js" },
+    { path: "/chat", icon: <FaRobot className="mr-2" />, label: "_ai_chat.js" },
   ];
 
   const isActive = (path: string) => {

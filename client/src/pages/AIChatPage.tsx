@@ -54,9 +54,11 @@ const AIChatPage: React.FC = () => {
         portfolioOwner: "Bhagyaban Ghadai"
       });
       
+      const data = await response.json() as { response: string };
+      
       const assistantMessage: ChatMessage = {
         role: "assistant",
-        content: response.response,
+        content: data.response,
         timestamp: new Date()
       };
       

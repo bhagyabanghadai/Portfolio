@@ -27,7 +27,7 @@ function Router() {
   const handleCommandExecute = (command: string) => {
     if (command === "home") {
       setLocation("/");
-    } else if (["about", "projects", "experience", "contact"].includes(command)) {
+    } else if (["about", "projects", "experience", "contact", "chat"].includes(command)) {
       setLocation(`/${command}`);
     }
   };
@@ -44,6 +44,7 @@ function Router() {
             <Route path="/projects" component={ProjectsPage} />
             <Route path="/experience" component={ExperiencePage} />
             <Route path="/contact" component={ContactPage} />
+            <Route path="/chat" component={AIChatPage} />
             <Route component={NotFound} />
           </Switch>
         </main>
