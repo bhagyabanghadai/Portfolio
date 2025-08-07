@@ -6,7 +6,8 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 const repoName = "portfolio"; // 👈 GitHub repo name
 
 export default defineConfig({
-  base: `/${repoName}/`, // 👈 Required for GitHub Pages to load correctly
+  base: `/${repoName}/`, // 👈 Set this to '/' if not using GitHub Pages
+  root: path.resolve(import.meta.dirname, "client"), // Root directory is 'client'
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -26,9 +27,8 @@ export default defineConfig({
       "@assets": path.resolve(import.meta.dirname, "attached_assets"),
     },
   },
-  root: path.resolve(import.meta.dirname, "client"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist", "client"),
+    outDir: "dist", // ✅ Will output to: client/dist
     emptyOutDir: true,
   },
 });
